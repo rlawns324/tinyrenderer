@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CEB343F823FE9E6E00A19BB2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB343F723FE9E6E00A19BB2 /* main.cpp */; };
-		CEB3440223FE9E8400A19BB2 /* tgaimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB343FE23FE9E8400A19BB2 /* tgaimage.cpp */; };
+		CEB3440723FEA6CA00A19BB2 /* tgaimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB3440523FEA6CA00A19BB2 /* tgaimage.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		CEB343F423FE9E6E00A19BB2 /* tinyrenderer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tinyrenderer; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB343F723FE9E6E00A19BB2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		CEB343FE23FE9E8400A19BB2 /* tgaimage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tgaimage.cpp; path = "../../../../Downloads/tinyrenderer-909fe20934ba5334144d2c748805690a1fa4c89f/tgaimage.cpp"; sourceTree = "<group>"; };
-		CEB3440023FE9E8400A19BB2 /* tgaimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tgaimage.h; path = "../../../../Downloads/tinyrenderer-909fe20934ba5334144d2c748805690a1fa4c89f/tgaimage.h"; sourceTree = "<group>"; };
+		CEB3440523FEA6CA00A19BB2 /* tgaimage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tgaimage.cpp; sourceTree = "<group>"; };
+		CEB3440623FEA6CA00A19BB2 /* tgaimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tgaimage.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 		CEB343F623FE9E6E00A19BB2 /* tinyrenderer */ = {
 			isa = PBXGroup;
 			children = (
-				CEB343FE23FE9E8400A19BB2 /* tgaimage.cpp */,
-				CEB3440023FE9E8400A19BB2 /* tgaimage.h */,
+				CEB3440523FEA6CA00A19BB2 /* tgaimage.cpp */,
+				CEB3440623FEA6CA00A19BB2 /* tgaimage.h */,
 				CEB343F723FE9E6E00A19BB2 /* main.cpp */,
 			);
 			path = tinyrenderer;
@@ -124,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB3440223FE9E8400A19BB2 /* tgaimage.cpp in Sources */,
+				CEB3440723FEA6CA00A19BB2 /* tgaimage.cpp in Sources */,
 				CEB343F823FE9E6E00A19BB2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
